@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leasing Financial System Application</title>
+        <style>
+            body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h4 {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2070a0;
+        }
+
+        .back-button {
+            display: block;
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        </style>
+        </head>
+    <body>
+        <h1>Payment Records</h1>
+        <h4>Please choose one of the options below</h4>
+
+        <ul>
+            <li><a href="add_payment.jsp">Add Payment</a></li>
+            <li><a href="search_payment.jsp">Search and View an Existing Payment Record</a></li>
+            <li><a href="filter_payment_by_lessee.jsp">Filter Payment Records by Lessee</a></li>
+            <li><a href="filter_payment_by_contract.jsp">Filter Payment Records by Contract</a></li>
+            <li><a href="search_payment_update.jsp">Update Payment Record</a></li>
+            <li><a href="search_payment_record_delete.jsp">Delete Payment Record</a></li>
+            <li><a href="payment_reports.jsp">Monthly/Yearly Payment Reports</a></li>
+            
+        </ul>
+        <a href="index.html" class="back-button">Back to Home Page</a>
+    </body>
+</html>

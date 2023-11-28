@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leasing Financial System Application</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h4 {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2070a0;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #2070a0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Lease Contract Actions</h1>
+    <h4>Please choose one of the options below</h4>
+
+    <ul>
+        <li><a href="lease_contract_form.jsp">Add Lease Contract</a></li>
+        <li><a href="search_lease_contract.html">Search and View an Existing Lease Contract</a></li>
+        <li><a href="filter_contracts.jsp">List the Assets of the Lessee</a></li>
+        <li><a href="update_contract.jsp">Update Lease Contracts</a></li>
+        <li><a href="delete_contract.jsp">Delete Lease Contracts</a></li>
+    </ul>
+
+    <!-- "Back to Main Menu" button -->
+    <button type="button" onclick="location.href='index.html'">Back to Main Menu</button>
+
+</body>
+</html>
